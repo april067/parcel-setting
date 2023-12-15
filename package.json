@@ -1,0 +1,23 @@
+{
+	"name": "parcel-setting",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel './src/index.html'",
+		"build": "parcel build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/april067/parcel-setting.git"
+	},
+	"author": "IK",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/april067/parcel-setting/issues"
+	},
+	"homepage": "https://github.com/april067/parcel-setting#readme",
+	"devDependencies": {
+		"parcel": "^2.10.3"
+	}
+}

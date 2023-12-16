@@ -1,0 +1,1 @@
+{"mappings":"ACAA,QAAQ,GAAG,CAAC","sources":["<anon>","src/app.js"],"sourcesContent":["(function () {\nvar $3015b282b063971c$exports = {};\nconsole.log(\"Hello world!\");\n\n})();\n//# sourceMappingURL=index.d9334dbc.js.map\n","console.log('Hello world!');\n"],"names":["console","log"],"version":3,"file":"index.d9334dbc.js.map"}

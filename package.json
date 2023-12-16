@@ -2,10 +2,11 @@
 	"name": "parcel-setting",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"homepage": "https://april067.github.io/parcel-setting/",
+	"source": "src/index.html",
 	"scripts": {
-		"start": "parcel './src/index.html'",
-		"build": "parcel build"
+		"start": "parcel",
+		"build": "parcel build --public-url /parcel-setting/"
 	},
 	"repository": {
 		"type": "git",
@@ -16,8 +17,14 @@
 	"bugs": {
 		"url": "https://github.com/april067/parcel-setting/issues"
 	},
-	"homepage": "https://github.com/april067/parcel-setting#readme",
+	"dependencies": {
+		"modern-normalize": "^2.0.0"
+	},
 	"devDependencies": {
-		"parcel": "^2.10.3"
-	}
+		"@parcel/transformer-sass": "^2.10.3",
+		"parcel": "^2.10.3",
+		"parcel-reporter-clean-dist": "^1.0.4",
+		"posthtml-include": "^1.7.4"
+	},
+	"browserslist": "> 0.5%, last 2 versions, not dead"
 }

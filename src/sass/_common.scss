@@ -1,8 +1,36 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-body {
-	background-color: #fafdd5;
+:root {
+	--timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	--animation-duration: 250ms;
 }
-h1 {
-	color: rgb(26, 12, 231);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fafafa;
+	color: #212121;
+	line-height: 1.5;
+
+	background-color: #fafdd5;
+	color: blue;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: inherit;
 }
